@@ -1,6 +1,6 @@
 {
-  "name": "@f12/fetch",
-  "version": "1.0.38",
+  "name": "lq-fetch",
+  "version": "1.0.0",
   "description": "",
   "main": "lib/index.js",
   "engines": {
@@ -20,13 +20,14 @@
     "lint": "eslint --ext .jsx,.js src/",
     "lint:fix": "npm run lint -- --fix",
     "start": "cross-env MOCK=true PORT=$npm_package_config_port DEBUG=app:* NODE_ENV=development node --inspect bin/dev-server",
-    "git:commit": "rimraf lib && babel src/util/fetch -d lib && git add . && git commit -m"
+    "git:commit": "rimraf lib && babel src/util/fetch -d lib && git add . && git commit -m",
+    "prepublishOnly": "npm version patch && git push",
   },
   "repository": {
     "type": "git",
-    "url": "git+http://git.ops.com/fe-group/f12-fetch.git"
+    "url": "git+http://github.com/luoqi14/lq-fetch.git"
   },
-  "author": "luoq@xinguangnet.com",
+  "author": "luoqi_14@126.com",
   "license": "MIT",
   "devDependencies": {
     "@epegzz/sass-vars-loader": "^2.0.2",

@@ -1,17 +1,17 @@
-# @f12/fetch
+# lq-fetch
 > 数据请求fetch公共接口
 
-[项目地址](http://git.ops.com/fe-group/f12-fetch)
+[项目地址](https://github.com/luoqi14/lq-fetch)
 
 ## Installation
 
   ```
-  npm install @f12/fetch --save
+  npm install lq-fetch --save
   ```
   
 ## Initialization
 ```
-import fetch from @f12/fetch;
+import fetch from lq-fetch;
 
 fetch.init({
   baseUrl: '',
@@ -52,7 +52,7 @@ fetch.init({
   
 ## Usage
 ```
-import fetch from @f12/fetch;
+import fetch from lq-fetch;
 
 fetch(url, params, opts);
 ```
