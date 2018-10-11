@@ -1,0 +1,59 @@
+@import '../colors';
+.ant-advanced-search-form {
+  background: #fff;
+  padding: 16px 30px 0px;
+  border-radius: 4px;
+  box-shadow: 1px 2px 1px rgba(0,0,0,.072);
+  border: 1px solid #e5e9e8;
+}
+
+.ant-advanced-search-form .ant-form-explain {
+  line-height: 1.2;
+  position: absolute;
+}
+
+.ant-advanced-search-form .ant-input-number {
+  width: 100%;
+}
+
+.ant-advanced-search-form .search-button {
+  width: 195px;
+}
+
+.ant-advanced-search-form .reset-button {
+  color: $primary-color;
+}
+
+/* use css to set position of modal */
+.ant-modal-wrap {
+  text-align: center;
+  white-space: nowrap;
+}
+
+.ant-modal-wrap:before {
+  content: '';
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+  width: 0;
+}
+
+.ant-modal-wrap .ant-modal {
+  display: inline-block;
+  vertical-align: middle;
+  top: 0;
+  text-align: left;
+}
+
+.ant-form-title {
+  background: #f6f6f6;
+  padding: 8px 20px;
+  margin-bottom: 16px;
+  font-size: 13px;
+  font-weight: bold;
+  width: 100%;
+}
+
+.ant-checkbox-group {
+  display: inline-block;
+}
